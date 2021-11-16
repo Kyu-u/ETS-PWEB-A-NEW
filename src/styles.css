@@ -4,3 +4,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#card:hover #bot{
+    background-color: rgb(2, 2, 71);
+}
+
+#card:hover #para{
+    color: white;
+}
+
+#love {
+    visibility: hidden;
+}
+
+#card:hover #love{
+    visibility: visible;
+}

@@ -18793,6 +18793,22 @@ video {
   content: none;
 }
 
+#card:hover #bot{
+  background-color: rgb(2, 2, 71);
+}
+
+#card:hover #para{
+  color: white;
+}
+
+#love {
+  visibility: hidden;
+}
+
+#card:hover #love{
+  visibility: visible;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
