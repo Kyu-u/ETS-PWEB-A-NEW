@@ -1,0 +1,22 @@
+{
+  "name": "ets-pweb-a-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o  public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyu-u/ETS-PWEB-A-NEW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyu-u/ETS-PWEB-A-NEW/issues"
+  },
+  "homepage": "https://github.com/Kyu-u/ETS-PWEB-A-NEW#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
